@@ -1,0 +1,9 @@
+{
+    "url": "https://raw.githubusercontent.com/mickd12/sxx/main/poc.yaml",
+    "urls": [
+        {
+            "url": "https://raw.githubusercontent.com/mickd12/sxx/main/poc.yaml",
+            "name": "DOM-XSS Proof-of-Concept"
+        }
+    ]
+}

